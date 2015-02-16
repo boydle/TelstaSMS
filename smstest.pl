@@ -239,7 +239,6 @@ sub SaveAPIData{
 	close($APIDATA);
 	$APIKey = $Ak;
 	$APISecret = $As;
-	PrintData();
 	print "\n";
 }
 
